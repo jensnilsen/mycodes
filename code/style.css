@@ -1,0 +1,74 @@
+
+
+/* Body*/
+body{
+  background-image: url("../images/gray.jpg");
+  background-color: #b6b6b6;
+
+}
+
+/*Paragraph Box*/
+
+.container1{
+  width: 50%;
+  margin: 50px auto;
+}
+
+    .box-1{
+      background-color:#2F4F4F;
+       box-shadow: 0px 0px 15px #000;
+       padding: 10px 10px 10px 10px;
+       border-radius: 70px
+    }
+
+        /* Headers*/
+        h1 {
+          color: 	#b4b4b4;
+          text-align: center;
+          font: 50px "Lucida Console", monospace ;
+        }
+
+            /* Paragraphs*/
+            p {
+              color: 	#b4b4b4;
+              font: 20px "Courier New", Courier, monospace;
+              line-height: 1.5em;
+              text-align: center;
+            }
+
+
+
+/*Link Box*/
+.container2{
+  width: 30%;
+  margin: 50px auto;
+}
+    .box-2{
+      background-color:#2F4F4F;
+       box-shadow: 0px 0px 15px #000;
+       padding: 10px 10px 10px 10px;
+       border-radius: 70px
+    }
+
+        /* Link header*/
+        .categories h2{
+          color: 	#A9A9A9;
+          text-align: center;
+          font: 30px "Lucida Console", monospace ;
+        }
+        /*Links*/
+        .categories ul{
+          color: 	#A9A9A9;
+          text-align: center;
+          font: 20px "Lucida Console", monospace ;
+          list-style: none;
+          padding: 0;
+        }
+            a{
+              text-decoration: none;
+              color: 	#A9A9A9;
+              text-align: center;
+              font: 25px "Lucida Console", monospace ;
+              line-height: 1.5
+            }
+            a:hover {  color: #f0f0f0;  }
